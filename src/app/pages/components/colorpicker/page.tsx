@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <Popover placement="right">
-        <div className=" w-screen h-48">
+        <div className=" flex ">
       <PopoverTrigger>
         <Button>Chenge </Button>
       </PopoverTrigger>

@@ -1,6 +1,6 @@
-'use client'
+"use server" 
 import React from "react";
-import { FaSearch } from "react-icons/fa";
+import { CiSearch } from "react-icons/ci";
 import { users } from "../data";
 import { Autocomplete, AutocompleteItem, Avatar, Button } from "@nextui-org/react";
 
@@ -44,7 +44,7 @@ export default async function App() {
           content: "p-1 border-small border-default-100 bg-background",
         },
       }}
-      startContent={<FaSearch />}
+      startContent={<CiSearch />}
       radius="full"
       variant="bordered"
     >
